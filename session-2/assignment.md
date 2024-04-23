@@ -46,13 +46,13 @@ This assignment extends the previous one by introducing advanced Git operations 
 6. **Cloning Remote Repository with SSH:**
    - Clone the remote repository to a different location using SSH.
 
-5. **Creation of Branches:**
+7. **Creation of Branches:**
    - Create a new branch named `feature/calculator` in the cloned repository:
      ```
      git checkout -b feature/calculator
      ```
 
-6. **Renaming the Branch:**
+8. **Renaming the Branch:**
    - Rename the branch to `feature/calculator-improvements`:
      ```
      git branch -m feature/calculator-improvements
@@ -60,30 +60,30 @@ This assignment extends the previous one by introducing advanced Git operations 
 
 ### Part 3: Working on the Branch
 
-7. **Do Some Work on the Branch:**
+9. **Do Some Work on the Branch:**
    - Implement additional functionalities or improvements to the `calculator.py` script in the `feature/calculator-improvements` branch. For instance, you can add a function to perform modulo operation.
 
 ### Part 4: Branch Comparison and Pull Request
 
-8. **Comparing the Branch with Main:**
+10. **Comparing the Branch with Main:**
    - Compare the `feature/calculator-improvements` branch with the `main` branch:
      ```
      git diff main..feature/calculator-improvements
      ```
 
-9. **Pushing to Remote Repository:**
+11. **Pushing to Remote Repository:**
    - Push the changes in the `feature/calculator-improvements` branch to the remote repository using SSH:
      ```
      git push origin feature/calculator-improvements
      ```
 
-10. **Creating a Pull Request:**
+12. **Creating a Pull Request:**
     - Go to the GitHub repository and create a pull request for the `feature/calculator-improvements` branch.
 
-11. **Merging the Pull Request:**
+13. **Merging the Pull Request:**
     - Merge the pull request into the `main` branch on GitHub.
 
-12. **Deleting the Branch Locally:**
+14. **Deleting the Branch Locally:**
     - After the pull request is merged, delete the `feature/calculator-improvements` branch locally:
       ```
       git branch -d feature/calculator-improvements
