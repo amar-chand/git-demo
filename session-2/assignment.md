@@ -89,7 +89,8 @@ This assignment extends the previous one by introducing advanced Git operations 
       git branch -d feature/calculator-improvements
       ```
 
-## Submission Guidelines
+## Note
 - Document each step of the assignment with screenshots or code snippets where appropriate.
 - Write a summary of your experience, highlighting any challenges faced and lessons learned.
+- Don't hesitate to seek help from your teammates or instructor if you encounter any difficulties during the assignment.
 
